@@ -1,20 +1,17 @@
-﻿// C4067a.cpp
+﻿#include <windows.h>
+// C4067a.cpp
 // compile with: cl /Za
 
 #include <iostream>
 #include <windows.h>
-#include <string>
 
 int main() {
     std::cout << "HELLO" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << " HELLO!!! " << "\n";
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl << std::endl << std::endl << std::endl;
     std::cout << "SQUARE" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "       * * * * * * *                " << std::endl;
     std::cout << "       *           *    " << std::endl;
     std::cout << "       *           *    " << std::endl;
@@ -22,41 +19,34 @@ int main() {
     std::cout << "       *           *    " << std::endl;
     std::cout << "       *           *    " << std::endl;
     std::cout << "       * * * * * * *                " << "\n";
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl << std::endl << std::endl << std::endl;
     std::cout << "ANKETA" << std::endl;
-    std::cout << "" << std::endl;
-   
+    std::cout << std::endl;
+
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    std::cout << "Прізвище: Іваниченко" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "Ім'я: Владислав" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "По батькові: Ігорович" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << "Прізвище:" << "Іваниченко" << "\n";
+    std::cout << std::endl;
+    std::cout << "Ім'я:" << "Владислав" << std::endl;
+    std::cout << std::endl;
+    std::cout << "По батькові:" << "Ігорович" << std::endl;
+    std::cout << std::endl;
     std::cout << "Стать: Чоловіча" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "Дата народження: 2005-07-26" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "Адреса: Паланочна 35/136" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "Номер телефону: +380 50 5541550" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "Місце навчання: ФПМ, ДНУ ім. Олеся Гончара" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "Група: ПА-23-1" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     std::cout << "Хоббі: Програмування" << std::endl;
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
     system("pause");
     return 0;
-
-
-
-}
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
